@@ -1,0 +1,22 @@
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    width: 400px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.post img {
+    width: 100%;
+}
+
+h2, p {
+    text-align: center;
+}

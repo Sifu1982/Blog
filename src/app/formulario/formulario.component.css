@@ -1,0 +1,19 @@
+.formulario {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 0 25%;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(42, 126, 200);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+}
+
+label {
+    text-transform: uppercase;
+    color: white;
+}

@@ -1,0 +1,26 @@
+<div class="formulario">
+    <h2>INSERTA UN NUEVO POST</h2>
+    <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label>Titulo</label>
+            <input type="text" class="form-control" formControlName="titulo">
+        </div>
+        <div class="form-group">
+            <label>Texto</label>
+            <input type="text" class="form-control" formControlName="texto">
+        </div>
+        <div class="form-group">
+            <label>Autor</label>
+            <input type="text" class="form-control" formControlName="autor">
+        </div>
+        <div class="form-group">
+            <label>Inserta una URL válida</label>
+            <input type="text" class="form-control" formControlName="imagen">
+        </div>
+        <div class="form-group">
+            <label>Categoría</label>
+            <input type="text" class="form-control" formControlName="categoria">
+        </div>
+        <button class="btn btn-block btn-primary">Enviar</button>
+    </form>
+</div>

@@ -1,0 +1,10 @@
+<div class="posts">
+    <div class="post" *ngFor="let post of posts">
+        <h2>TITULO: {{post.titulo}}</h2>
+        <p>AUTOR: {{post.autor}}</p>
+        <p>FECHA DE PUBLICACIÓN: {{post.fecha | date: 'dd/MM/yyyy'}} a las {{post.fecha | date: 'HH:mm'}}</p>
+        <p>CATEGORÍA: {{post.categoria}}</p>
+        <img [src]="post.imagen" [alt]="post.imagen">
+        <p>TEXTO: {{post.texto}}</p>
+    </div>
+</div>
